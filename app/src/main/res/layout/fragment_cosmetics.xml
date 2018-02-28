@@ -1,0 +1,101 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="15dp"
+    tools:context="com.forev.obsidian.Grains">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:text="Powder"
+            android:textAlignment="textStart" />
+
+        <Button
+            android:id="@+id/powderButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Add"
+            android:textAlignment="center" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:text="Cream"
+            android:textAlignment="textStart" />
+
+        <Button
+            android:id="@+id/creamButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Add"
+            android:textAlignment="center" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:text="Face wash"
+            android:textAlignment="textStart" />
+
+        <Button
+            android:id="@+id/fWashButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Add"
+            android:textAlignment="center" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:text="Hair Oil"
+            android:textAlignment="textStart" />
+
+        <Button
+            android:id="@+id/hOilButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Add"
+            android:textAlignment="center" />
+    </TableRow>
+</TableLayout>

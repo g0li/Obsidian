@@ -1,0 +1,101 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="15dp"
+    tools:context="com.forev.obsidian.Grains">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:text="Rava"
+            android:textAlignment="textStart" />
+
+        <Button
+            android:id="@+id/ravaButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Add"
+            android:textAlignment="center" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:text="Poha"
+            android:textAlignment="textStart" />
+
+        <Button
+            android:id="@+id/pohaButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Add"
+            android:textAlignment="center" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:text="Tea"
+            android:textAlignment="textStart" />
+
+        <Button
+            android:id="@+id/teaButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Add"
+            android:textAlignment="center" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:text="Coffee"
+            android:textAlignment="textStart" />
+
+        <Button
+            android:id="@+id/coffeeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Add"
+            android:textAlignment="center" />
+    </TableRow>
+</TableLayout>

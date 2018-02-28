@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "218114153678",
+    "firebase_url": "https://obsidian-c2be9.firebaseio.com",
+    "project_id": "obsidian-c2be9",
+    "storage_bucket": "obsidian-c2be9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218114153678:android:1876828bc650f049",
+        "android_client_info": {
+          "package_name": "com.forev.obsidian"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218114153678-g93fckm7qk5toqe8j4ivjbvv89ehjn0k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.forev.obsidian",
+            "certificate_hash": "3e036b8b6470fdd14ec9da0777855ccb274bb27a"
+          }
+        },
+        {
+          "client_id": "218114153678-86on72n0045r0ki1v58q665aeh10si7d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtHcM4a0Tbc01Nz1JZjiKuW5NoAKX1cDA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "218114153678-86on72n0045r0ki1v58q665aeh10si7d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
